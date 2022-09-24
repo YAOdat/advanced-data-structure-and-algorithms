@@ -1,14 +1,12 @@
 'use strict'
 
-const Node = require('./node')
+const Node = require('./Node')
 
 class Stack {
     constructor() {
         this.top=null;
 
     }
-
-
     push(value) {
         let node = new Node(value);
         if(this.top){
